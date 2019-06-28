@@ -49,8 +49,8 @@ npredicted{k} = numel(prList);
 end
 
 %% Loop starts
-pseudo_mask = zeros(1000,1000);
-kk = 1;
+pseudo_mask = zeros(1000,1000); % To save final mask
+kk = 1; % Nuclei count
 
 for k = 1:3 %Loop will  cover all nuclei from top 3 techniques
     

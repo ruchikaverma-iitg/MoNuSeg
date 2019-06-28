@@ -1,6 +1,6 @@
 # MoNuSeg
 
-This repository contains my implementations of the algorithms which MoNuSeg organizers used for evaluation of the [MoNuSeg challenge] (https://monuseg.grand-challenge.org/) at [Miccai 2018](https://www.miccai2018.org/en/)
+This repository contains my implementations of the algorithms which MoNuSeg organizers used for evaluation of the [MoNuSeg challenge](https://monuseg.grand-challenge.org/) at [Miccai 2018](https://www.miccai2018.org/en/)
 
 
 | **File name** | **Description** |

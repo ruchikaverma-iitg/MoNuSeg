@@ -1,3 +1,6 @@
+%% Ruchika
+%% Combine predicted masks of top 5 participants to get combined predicted masks of each image
+
 clc;
 clear all;
 close all;
@@ -98,8 +101,8 @@ while ~isempty(correct_list)
         end
     end
     
-    if nnz(temp_mask1>=3)
-        pseudo_mask = pseudo_mask+kk*(temp_mask1>=3);%threshold is 3
+    if nnz(temp_mask1>=3) %threshold is 3
+        pseudo_mask = pseudo_mask+kk*(temp_mask1>=3); 
         kk = kk+1;
     end
 end

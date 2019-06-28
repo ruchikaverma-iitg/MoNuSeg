@@ -1,5 +1,5 @@
 %% Ruchika
-%%Individual AJI's & mean AJIs
+%% Individual AJI's & mean AJIs
 
 clc;
 clear all;
@@ -12,7 +12,7 @@ listing = dir(dirname);
 patient_names = listing(3:end);
 main_aji = zeros(36,14);%% participants, N_testing_images
 
-for k = 1:36
+for k = 1:36 % participants
 %% Predicted patient name
 participant = (strcat(dirname,'\',patient_names(k).name));
 cd(participant);
@@ -25,7 +25,7 @@ participant_name = strcat(participant,'\',participant_name(3).name);
 GT_dirname = 'D:\Research work\MONUSEG\GT';
 GT_listing = dir([GT_dirname,'\*.mat']);
 aji_individual = [];
-for j = 1:14%GT file name
+for j = 1:14 %GT file name
 
 load(strcat(GT_dirname,'\',GT_listing(j).name));
 gt_map = binary_mask;

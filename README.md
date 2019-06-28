@@ -6,5 +6,5 @@ This repository contains my implementations of the algorithms which [MoNuSeg](ht
 
 | **File name** | **Description** |
 | ------------- | ------------- |
-| [1 compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
-| [2 combine_top_5](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine predicted masks of top 5 participants to get combined predicted masks of each image|
+| [1) compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
+| [2) combine_top_5](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine predicted masks of top 5 participants to get combined predicted masks of each image|

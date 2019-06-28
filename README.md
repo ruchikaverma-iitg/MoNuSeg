@@ -3,7 +3,7 @@
 This repository contains my implementations of the algorithms which [MoNuSeg](https://monuseg.grand-challenge.org/) organizers used for evaluation of the [MoNuSeg challenge](https://monuseg.grand-challenge.org/) at [Miccai 2018](https://www.miccai2018.org/en/)
 
 Please cite the following paper if you use this code-
-Kumar, N., Verma, R., Sharma, S., Bhargava, S., Vahadane, A., & Sethi, A. (2017). A dataset and a technique for generalized nuclear segmentation for computational pathology. IEEE transactions on medical imaging, 36(7), 1550-1560.
+[Kumar, N., Verma, R., Sharma, S., Bhargava, S., Vahadane, A., & Sethi, A. (2017). A dataset and a technique for generalized nuclear segmentation for computational pathology. IEEE transactions on medical imaging, 36(7), 1550-1560](https://ieeexplore.ieee.org/document/7872382)
 
 
 

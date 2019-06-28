@@ -9,5 +9,5 @@ Please cite the following paper if you use this code-
 
 | **File name** | **Description** |
 | ------------- | ------------- |
-| [1) compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
-| [2) combine_top_5_predicted_masks](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine predicted masks of top 5 participants to get combined predicted masks of each image|
+| [compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
+| [combine_top_5_predicted_masks](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine predicted masks of top 5 participants to get combined predicted masks of each image|

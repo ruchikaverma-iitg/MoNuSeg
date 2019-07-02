@@ -11,3 +11,5 @@ Please cite the following paper if you use this code-
 | ------------- | ------------- |
 | [compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
 | [combine_top_5_predicted_masks](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine predicted masks of top 5 participants to get combined predicted masks of each image|
+| [correct_nd_missing_nuc_count](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/correct_nd_missing_nuc_count.m) | Count correctly classified nuclei and missing nuclei in each predicted mask of top 5 participants|
+

@@ -1,23 +1,23 @@
-%% Ruchika
-%% Combine instance masks of top 5 techniques to get ensemble mask (through instance level majority voting).
+% Ruchika
+% Combine instance masks of top 5 techniques to get ensemble mask (through instance level majority voting).
 
 clc;
 clear all;
 close all;
 
-%% Set path
+% Set path
 dirname = 'D:\Research work\MONUSEG\Top_5_teams';
 addpath('D:\Research work\MONUSEG\Top_5_teams');
 listing = dir(dirname);
 patient_names = listing(3:end);
 
 
-%% Loop start with top ranker
+% Loop start with top ranker
 correct_dirname = 'D:\Research work\MONUSEG\Top_5_teams\1_yanning zhou\Zhou_MoNuSeg2018results';
 correct_listing = dir([correct_dirname,'\*.mat']);
 
 
-%% Comparison of each image
+% Comparison of each image
 destination_path = 'D:\Research work\MONUSEG\Top_5_teams\combined_results' 
 mkdir(destination_path);% To save combined maps of top 5 techniques
 
@@ -51,7 +51,7 @@ pr_list{k} =  prList;
 npredicted{k} = numel(prList);
 end
 
-%% Loop starts
+% Loop starts
 pseudo_mask = zeros(1000,1000); % To save final mask
 kk = 1; % Nuclei count
 

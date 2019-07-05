@@ -1,4 +1,4 @@
-% Script to computer Aggregated Jaccard Index
+% Script to compute Aggregated Jaccard Index
 % Created by Ruchika Verma, please cite the following paper if you use this code-
 % N. Kumar, R. Verma, S. Sharma, S. Bhargava, A. Vahadane and A. Sethi, 
 % "A Dataset and a Technique for Generalized Nuclear Segmentation for 

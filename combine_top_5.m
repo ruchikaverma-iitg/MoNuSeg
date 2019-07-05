@@ -1,5 +1,5 @@
 %% Ruchika
-%% Combine instance masks of top 5 techniques to get ensemble mask
+%% Combine instance masks of top 5 techniques to get ensemble mask (through instance level majority voting).
 
 clc;
 clear all;

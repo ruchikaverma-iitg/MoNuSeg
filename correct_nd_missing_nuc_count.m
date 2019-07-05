@@ -1,21 +1,21 @@
-%% Ruchika
-%% Count correctly classified nuclei and missing nuclei in each predicted mask
+% Ruchika
+% Count correctly classified nuclei and missing nuclei in each predicted mask
 
 clc;
 clear all;
 close all;
 
-%% Set path
+% Set path
 dirname = 'D:\Research work\MONUSEG\Top_5_teams';
 addpath('D:\Research work\MONUSEG\Top_5_teams');
 listing = dir(dirname);
 patient_names = listing(3:end);
 
-%% Loop start with GT
+% Loop start with GT
 correct_dirname = 'D:\Research work\MONUSEG\GT';
 correct_listing = dir([correct_dirname,'\*.mat']);
 
-%%  Loop on participants
+%  Loop on participants
 for k = 1:5% participants
 participant = (strcat(dirname,'\',patient_names(k).name));
 cd(participant);
@@ -24,7 +24,7 @@ participant_name(~[participant_name.isdir]) = [];
 participant_name = strcat(participant,'\',participant_name(3).name);
 
 
-%% Comparison of each image
+% Comparison of each image
 for j = 1:14 % 14 images
 
 correct_mask = load(strcat(correct_dirname,'\',correct_listing(j).name));
@@ -34,7 +34,7 @@ correct_list = unique(correct_mask); % set of unique gt nuclei
 correct_list = correct_list(2:end); % exclude 0
 ncorrect = numel(correct_list);
 
-%% Load predicted mask in predicted_map and count unique indices in predicted_indices
+% Load predicted mask in predicted_map and count unique indices in predicted_indices
 cd(participant_name);
 if exist(strcat(correct_listing(j).name(1:end-7),'.mat'))
     predicted = load(strcat(participant_name,'\',correct_listing(j).name(1:end-7),'.mat'));
@@ -44,7 +44,7 @@ end
 predicted_map = double(cell2mat(struct2cell(predicted)));
 predicted_indices = nonzeros(unique(predicted_map));
 
-%% Count correctly classified nuclei and missing nuclei
+% Count correctly classified nuclei and missing nuclei
 miss_nuc = 0; % missing nuclei
 correct_nuc = 0; % correctly classified nuclei
 
@@ -76,7 +76,7 @@ count = [correct_nuc miss_nuc];
 
 end
 
-%% combine results
+% combine results
 p(j,1:2) = count;
 
 end

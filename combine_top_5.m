@@ -1,5 +1,5 @@
 %% Ruchika
-%% Combine predicted masks of top 5 participants to get combined predicted masks of each image
+%% Combine instance masks of top 5 techniques to get ensemble mask
 
 clc;
 clear all;

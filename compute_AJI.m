@@ -1,5 +1,9 @@
-%% Ruchika
-%% Individual AJI's & mean AJIs
+% Script to compute Aggregated Jaccard Index
+% Created by Ruchika Verma, please cite the following paper if you use this code-
+% N. Kumar, R. Verma, S. Sharma, S. Bhargava, A. Vahadane and A. Sethi, 
+% "A Dataset and a Technique for Generalized Nuclear Segmentation for 
+% Computational Pathology," in IEEE Transactions on Medical Imaging, 
+% vol. 36, no. 7, pp. 1550-1560, July 2017
 
 clc;
 clear all;

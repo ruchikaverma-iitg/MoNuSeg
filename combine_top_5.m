@@ -1,5 +1,9 @@
-% Ruchika
-% Combine instance masks of top 5 techniques to get ensemble mask (through instance level majority voting).
+% Script to combine instance masks of top 5 techniques to get ensemble mask (through instance level majority voting).
+% Created by Ruchika Verma, please cite the following paper if you use this code-
+% N. Kumar, R. Verma, S. Sharma, S. Bhargava, A. Vahadane and A. Sethi, 
+% "A Dataset and a Technique for Generalized Nuclear Segmentation for 
+% Computational Pathology," in IEEE Transactions on Medical Imaging, 
+% vol. 36, no. 7, pp. 1550-1560, July 2017
 
 clc;
 clear all;

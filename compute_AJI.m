@@ -10,7 +10,7 @@ dirname = 'D:\Research work\MONUSEG\Monuseg results';
 addpath('D:\Research work\MONUSEG\Monuseg results');
 listing = dir(dirname);
 patient_names = listing(3:end);
-main_aji = zeros(36,14);%% participants, N_testing_images
+main_aji = zeros(36,14);% participants, N_testing_images
 
 for k = 1:36 % participants
 % Predicted patient name

@@ -10,6 +10,6 @@ Please cite the following paper if you use this code-
 | **File name** | **Description** |
 | ------------- | ------------- |
 | [compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image of each participant|
-| [Ensemble_mask](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine instance masks of top 5 techniques to get ensemble mask|
+| [Ensemble_mask](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/combine_top_5.m) | Combine instance masks of top 5 techniques to get ensemble mask using majority voting)|
 | [correct_nd_missing_nuc_count](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/correct_nd_missing_nuc_count.m) | Count correctly classified nuclei and missing nuclei in each predicted mask of top 5 participants|
 

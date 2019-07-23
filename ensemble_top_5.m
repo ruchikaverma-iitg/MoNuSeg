@@ -30,7 +30,7 @@ for j = 1:14 %images
 correct_mask = load(strcat(correct_dirname,'\',correct_listing(j).name));
 correct_mask = double(cell2mat(struct2cell(correct_mask)));
 
-correct_list = unique(correct_mask); % set of unique gt nuclei
+correct_list = unique(correct_mask); % set of unique nuclei predicted by rank 1 team
 correct_list = correct_list(2:end); % exclude 0
 ncorrect = numel(correct_list);
 predicted_map{1} = correct_mask;
@@ -48,7 +48,7 @@ participant_name = strcat(participant,'\',participant_name(3).name);
 predicted = load(strcat(participant_name,'\',correct_listing(j).name(1:end-4),'_predicted_map.mat'));
 predicted_map{k} = double(cell2mat(struct2cell(predicted)));
 
-prList = unique(predicted_map{k}); % ordered set of unique gt nuclei
+prList = unique(predicted_map{k}); % ordered set of unique nuclei predicted by rank k team
 prList = prList(2:end); % exclude 0
 % mark used nuclei by the number of uses (you can use any other criteria) 
 pr_list{k} =  prList;

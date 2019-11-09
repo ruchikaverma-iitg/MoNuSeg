@@ -1,6 +1,7 @@
 # [MoNuSeg grand-challenge](https://monuseg.grand-challenge.org/) organized at [MICCAI 2018](https://www.miccai2018.org/en/)
 
 Please cite the following paper if you use this repository-
+
 [Kumar, N., Verma, R., Sharma, S., Bhargava, S., Vahadane, A., & Sethi, A. (2017). A dataset and a technique for generalized nuclear segmentation for computational pathology. IEEE transactions on medical imaging, 36(7), 1550-1560](https://ieeexplore.ieee.org/document/7872382)
 
 

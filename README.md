@@ -7,7 +7,8 @@ Please cite the following paper if you use this repository-
 
 | **File name** | **Description** |
 | ------------- | ------------- |
-| [compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI across all nuclei for each image|
+| [Aggregated_Jaccard_Index_v1_0](https://github.com/ruchikaverma-iitg/MoNuSeg/blob/master/Aggregated_Jaccard_Index_v1_0.m) | Compute average AJI across all nuclei for each image|
+| [compute_AJI](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/compute_AJI.m) | Compute average AJI (across all nuclei) per image for each participant|
 | [Ensemble_mask](https://github.com/ruchikavermavaid/MoNuSeg/blob/master/ensemble_top_5.m) | Combine instance masks of top 5 techniques to get ensemble mask using majority voting|
 | [correct_nd_missing_nuc_count](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/correct_nd_missing_nuc_count.m) | Count correctly classified nuclei and missing nuclei in each predicted mask of top 5 techniques|
 | [he_to_binary_mask_final](https://github.com/ruchikavermavaid/MoNuSeg/blob/master/he_to_binary_mask_final.m) | Use H&E stained image along with associated xml file to generate binary and colored mask|

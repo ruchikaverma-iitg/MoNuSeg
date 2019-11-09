@@ -13,3 +13,8 @@ Please cite the following paper if you use this repository-
 | [correct_nd_missing_nuc_count](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/correct_nd_missing_nuc_count.m) | Count correctly classified nuclei and missing nuclei in each predicted mask of top 5 techniques|
 | [he_to_binary_mask_final](https://github.com/ruchikavermavaid/MoNuSeg/blob/master/he_to_binary_mask_final.m) | Use H&E stained image along with associated xml file to generate binary and colored mask|
 
+# Nuclei-Segmentation
+An implementation of Mask R-CNN algorithm using [Matterport library](https://github.com/matterport/Mask_RCNN)
+for nuclei segmentation from whole slide images of tissue sections can be found from the links given below: 
+
+Feel free to use weights of my trained model from [here](https://drive.google.com/open?id=16oPaebQnZCMzEsEGvhSVPMvEhbKJPATQ) and segmentation of nuclei from WSI could be done using [the testing code](https://github.com/ruchikaverma-iitg/Nuclei-Segmentation/blob/master/Nuclei_Segmentation_testing_code.ipynb)

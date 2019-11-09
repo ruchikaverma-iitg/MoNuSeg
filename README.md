@@ -17,4 +17,6 @@ Please cite the following paper if you use this repository-
 An implementation of Mask R-CNN algorithm using [Matterport library](https://github.com/matterport/Mask_RCNN)
 for nuclei segmentation from whole slide images of tissue sections can be found from the links given below: 
 
-Feel free to use weights of my trained model from [here](https://drive.google.com/open?id=16oPaebQnZCMzEsEGvhSVPMvEhbKJPATQ) and segmentation of nuclei from WSI could be done using [the testing code](https://github.com/ruchikaverma-iitg/Nuclei-Segmentation/blob/master/Nuclei_Segmentation_testing_code.ipynb)
+[Testing code](https://github.com/ruchikaverma-iitg/Nuclei-Segmentation/blob/master/Nuclei_Segmentation_testing_code.ipynb)
+[Trained weights](https://drive.google.com/open?id=16oPaebQnZCMzEsEGvhSVPMvEhbKJPATQ)
+

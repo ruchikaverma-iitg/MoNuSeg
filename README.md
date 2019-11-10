@@ -13,6 +13,7 @@ Please cite the following paper if you use this repository-
 | [Ensemble_mask](https://github.com/ruchikavermavaid/MoNuSeg/blob/master/ensemble_top_5.m) | Combine instance masks of top 5 techniques to get ensemble mask using majority voting|
 | [correct_nd_missing_nuc_count](https://github.com/RuchikaVermaVaid/MoNuSeg/blob/master/correct_nd_missing_nuc_count.m) | Count correctly classified nuclei and missing nuclei in each predicted mask of top 5 techniques|
 | [he_to_binary_mask_final](https://github.com/ruchikavermavaid/MoNuSeg/blob/master/he_to_binary_mask_final.m) | Use H&E stained image along with associated xml file to generate binary and colored mask|
+| [Nuclei-Segmentation](https://github.com/ruchikaverma-iitg/Nuclei-Segmentation) | An implementation of Mask R-CNN algorithm for nuclei segmentation|
 
 # [Nuclei-Segmentation](https://github.com/ruchikaverma-iitg/Nuclei-Segmentation)
 An implementation of Mask R-CNN algorithm using [Matterport library](https://github.com/matterport/Mask_RCNN)
